@@ -1,0 +1,14 @@
+# Keil
+*.uvoptx
+*.uvguix.*
+*.lst
+*.obj
+*.rpt
+*.tmp
+*.lnp
+*.m51
+*.map
+*.bak
+# 系统文件
+.DS_Store
+Thumbs.db
