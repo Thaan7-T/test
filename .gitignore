@@ -1,14 +1,24 @@
-# Keil
-*.uvoptx
-*.uvguix.*
-*.lst
+# Keil uVision / C51 编译产物（任意子目录）
+Objects/
+Listings/
+Output/
 *.obj
-*.rpt
-*.tmp
+*.hex
+*.lst
+*.map
 *.lnp
 *.m51
-*.map
 *.bak
-# 系统文件
-.DS_Store
+*.dep
+*.plg
+*.build_log.htm
+
+# uVision 本机配置
+*.uvguix.*
+*.uvgui.*
+*.uvoptx
+*.uvopt
+
+# 系统垃圾
 Thumbs.db
+Desktop.ini
